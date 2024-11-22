@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce más sobre nuestro equipo, misión, visión y valores en Reparación de PC.">
+    <title>Quiénes Somos - Reparación de PC</title>
+    <!-- Fuente: Lora -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Lora', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: radial-gradient(circle, rgb(252, 81, 81), orange, yellow);
+        }
+
+        table th, table td {
+            padding: 15px;
+            border-bottom: 1px solid #0a0a0a;
+            text-align: center;
+        }
+
+        table th {
+            background: radial-gradient(circle, #5ec998, gray 50%);
+            color: white;
+            text-align: center;
+        }
+
+        table tr:hover {
+            background: radial-gradient(circle, #2be793, rgb(180, 179, 179) 50%);
+            cursor: pointer;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: radial-gradient(circle, #27e690, rgb(180, 179, 179) 50%);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .modal-content p {
+            margin: 15px 0;
+        }
+
+        .close-btn {
+            padding: 10px 20px;
+            background: radial-gradient(circle, rgb(252, 81, 81), orange, yellow);
+            color: rgb(12, 12, 12);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            background: radial-gradient(circle, #e7ebe9, rgb(252, 250, 250) 50%);
+        }
+    </style>
+</head>
+
+<body class="quienessomos">
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./quienessomos.html" class="active">Quiénes Somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Nuestra Historia -->
+        <section class="section">
+            <h1>¿Quiénes Somos?</h1>
+            <img src="https://4.bp.blogspot.com/-Y_n5mx_X9JI/WKu8jt3dDlI/AAAAAAAAAAs/DIw-BqyA00kLySFPPLZ0QzfzZUzGCv65ACLcB/s1600/computadora.png" alt="Nuestro equipo técnico trabajando" class="responsive-img">
+            <p>
+                En <strong>Reparación de PC</strong>, somos un equipo de técnicos especializados con más de una década de experiencia en el diagnóstico,
+                reparación y mantenimiento de equipos informáticos. Nuestro compromiso es brindar soluciones rápidas, efectivas y de alta calidad a todos
+                nuestros clientes.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Nuestra Historia</h2>
+            <p>
+                Fundada en 2014, nuestra empresa comenzó como un pequeño taller enfocado en reparar problemas básicos de computadoras.
+                A lo largo de los años, hemos evolucionado para convertirnos en un referente en la industria, ofreciendo servicios integrales
+                que abarcan desde la reparación de hardware hasta la optimización de software y actualizaciones de componentes.
+            </p>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="section">
+            <h2>Misión y Visión</h2>
+            <img src="https://th.bing.com/th/id/R.53748a6e8ad4899e980534ebe2e342c9?rik=h5Pr%2fgnpo3SiFQ&riu=http%3a%2f%2fingresopasivointeligente.com%2fwp-content%2fuploads%2f2014%2f01%2fMision-Vision-y-Valores-de-una-Empresa.gif&ehk=ktw82NV%2b01nsFux%2fzh9j%2fh8SMF0gnxw5Zse6l2Bg4RU%3d&risl=&pid=ImgRaw&r=0" alt="Nuestro equipo técnico trabajando" class="responsive-img">
+            <h3>Misión</h3>
+            <p>
+                Proporcionar servicios de reparación y mantenimiento de equipos informáticos con un enfoque en la calidad, rapidez y satisfacción del cliente.
+            </p>
+            <h3>Visión</h3>
+            <p>
+                Convertirnos en líderes regionales en soluciones tecnológicas, siendo reconocidos por nuestra innovación y excelencia en el servicio.
+            </p>
+        </section>
+
+        <!-- Impacto en la Comunidad -->
+        <section class="section">
+            <h2>Impacto en la Comunidad</h2>
+            <img src="https://th.bing.com/th/id/OIP.vQmGBS-9S5xdvkyWiGDjIgHaEa?rs=1&pid=ImgDetMain" alt="Nuestro equipo técnico trabajando" class="responsive-img">
+            <p>
+                En Reparación de PC, estamos profundamente comprometidos con nuestra comunidad local en Perico, Jujuy.  
+                Trabajamos de la mano con escuelas, pequeñas empresas y organizaciones sin fines de lucro para ofrecer soporte técnico y capacitación en
+                tecnología.
+            </p>
+            <ul>
+                <li><strong>Escuelas locales:</strong> Mantenimiento de computadoras para aulas digitales, mejorando la experiencia educativa de los estudiantes.</li>
+                <li><strong>Empresas:</strong> Implementación de sistemas y soporte técnico continuo para mejorar la productividad de pequeños negocios.</li>
+                <li><strong>Capacitación:</strong> Talleres gratuitos para jóvenes interesados en tecnología, fomentando el desarrollo de habilidades en informática.</li>
+            </ul>
+            <p>
+                Además, promovemos el reciclaje tecnológico, ayudando a reducir la cantidad de residuos electrónicos mediante la reutilización de componentes
+                funcionales. Esto no solo reduce el impacto ambiental, sino que también apoya a la comunidad con equipos más accesibles.
+            </p>
+        </section>
+
+        <!-- Valores -->
+        <section class="section">
+            <h2>Valores</h2>
+            <ul>
+                <li><strong>Compromiso:</strong> Cumplimos con los tiempos y estándares establecidos para garantizar resultados óptimos.</li>
+                <li><strong>Innovación:</strong> Nos mantenemos actualizados con las últimas tecnologías y herramientas del mercado.</li>
+                <li><strong>Confianza:</strong> Establecemos relaciones sólidas y transparentes con nuestros clientes.</li>
+            </ul>
+        </section>
+
+        <!-- Nuestro Equipo -->
+        <section class="section">
+            
+            <h2>Nuestro Equipo Técnico</h2>
+            <p>
+                Contamos con un equipo multidisciplinario compuesto por especialistas en hardware, software y optimización de sistemas.
+                Cada miembro está altamente capacitado y en constante formación, asegurando que podamos abordar cualquier problema técnico de manera eficiente.
+            </p>
+            <img src="https://bloomberglinea-bloomberglinea-prod.web.arc-cdn.net/resizer/v2/NORMZHJYDBF57LPDACAZYTBQ3M.jpg?auth=f5980a8970e868af0087dd5f4f75a9820caa90a18e96b75bb0a4c75a8d351a07&width=1024&quality=75" alt="Nuestro equipo técnico trabajando" class="responsive-img">
+            
+        </section>
+
+        <!-- Tabla -->
+        <section class="section">
+            <h2>Servicios Detallados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Descripción</th>
+                        <th>Precio Estimado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr onclick="showModal('Reparación de Hardware', 'Solución a problemas físicos del equipo.', '$35000')">
+                        <td>Reparación</td>
+                        <td>ProblemaS del equipo.</td>
+                        <td>$35000</td>
+                    </tr>
+                    <tr onclick="showModal('Mantenimiento de Software', 'Instalación de sistemas operativos y limpieza de virus.', '$25000')">
+                        <td>Mantenimiento</td>
+                        <td>Instalación y limpieza.</td>
+                        <td>$25000</td>
+                    </tr>
+                    <tr onclick="showModal('Actualización de Componentes', 'Mejoramos el rendimiento con hardware moderno.', '$40000')">
+                        <td>Actualización</td>
+                        <td>Hardware moderno.</td>
+                        <td>$40000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal" id="serviceModal">
+            <div class="modal-content">
+                <p><strong>Servicio:</strong> <span id="modal-servicio"></span></p>
+                <p><strong>Descripción:</strong> <span id="modal-descripcion"></span></p>
+                <p><strong>Precio:</strong> <span id="modal-precio"></span></p>
+                <button class="close-btn" onclick="closeModal()">Cerrar</button>
+            </div>
+        </div>
+
+</main>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h4>Contáctanos</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="instagram.png" alt="Instagram oficial de Reparación de PC" class="footer-icon"> Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/ismael.hoyos.9" target="_blank">
+                            <img src="facebook.png" alt="Página de Facebook de Reparación de PC" class="footer-icon"> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/3885050885" target="_blank">
+                            <img src="whatsapp.png" alt="WhatsApp de Reparación de PC" class="footer-icon"> WhatsApp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:ismaelangel022@gmail.com">
+                            <img src="gmail.png" alt="Correo electrónico de contacto" class="footer-icon"> Correo Electrónico
+                        </a>
+                    </li>
+                </ul>
+                <h3><img src="phone.png" alt="Instagram oficial de Reparación de PC" class="footer-icon"></h3>
+                <ul>
+                    <li>
+                        Celular: +5493885050885
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-location">
+                <h4>Ubicación:</h4>
+                <p>
+                    B° San Isidro N° 934, Monterrico, Jujuy, Argentina. Ven a visitarnos o llámanos para agendar una consulta.
+                </p>
+            </div>
+            <div class="footer-hours">
+                <h4>Horarios de Atención:</h4>
+                <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                <p>Sábados: 9:00 AM - 2:00 PM</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Función para abrir el modal con información dinámica
+        function showModal(servicio, descripcion, precio) {
+            document.getElementById('modal-servicio').textContent = servicio;
+            document.getElementById('modal-descripcion').textContent = descripcion;
+            document.getElementById('modal-precio').textContent = precio;
+
+            document.getElementById('serviceModal').style.display = 'flex';
+        }
+
+        // Función para cerrar el modal
+        function closeModal() {
+            document.getElementById('serviceModal').style.display = 'none';
+        }
+    </script>
+
+    <script src="interactividad.js"></script>
+</body>
+
+</html>
